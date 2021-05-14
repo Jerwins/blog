@@ -1,0 +1,4 @@
+[submodule "jerwinme/public"]
+	path = jerwinme/public
+	url = https://github.com/Jerwins/jerwins.github.io.git
+	branch = main

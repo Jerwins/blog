@@ -1,0 +1,66 @@
+baseurl = "/"
+languageCode = "en"
+title = "Jerwin: notes"
+theme = "kiss"
+copyright = "Jerwin &copy; 2021"
+disqusShortname = "jerwinsamuel"
+googleAnalytics = ""
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Jerwin Samuel" # Author full name
+authorEmail = "jerwinsamuel@gmail.com" # Author email
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "Jerwin's Journal" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+codeCopy = true # Add copy button above code blocks
+taxonomiesCount = true # Add taxonomies count
+
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
+
+[params.sections_right]
+"/me" = "about me"
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = ""
+github = "jerwins"
+email = ""
+linkedin = "jerwinsamuel"
+facebook = ""
+instagram = ""
+codepen = ""
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
+
+[params.matomoAnalytics]
+siteID = 1
+rootURL = ""
+
+[params.fathomAnalytics]
+rootURL = ""
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
